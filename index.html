@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Проверка пароля</h1>
+    <div class="container">
+    <form action="">
+    <label for="password">Password</label>
+    <input type="password" id="inputPassword" pattern= "[myFreedom-2011].{5,20}" title="Пароль должен содержать не менее 5 символов и не более 20" required>
+    <input type="submit" value="Проверка пароля">
+</form>
+</div>
+<div id="messageLenght">
+  <p id="length" class="invalid">Минимум 5 символов и максимум 20</p>
+</div>
+<div id="messageHello">
+  <p id="letterHello" class="invalid">Добро пожаловать!</p>
+</div>
+  <!-- <p class="error"></p>
+  <p class="error1">Пароль введен неверно осталось 2 попытки</p>
+  <p class="error2">Пароль введен неверно осталось 1 попытка</p> -->
+
+<!-- <div>
+    <button id="buttonPassword">Проверка пароля</button>
+</div> -->
+    <script src="script.js"></script>
+</body>
+</html>
